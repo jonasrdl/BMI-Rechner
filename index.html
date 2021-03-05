@@ -1,0 +1,24 @@
+<html lang="de">
+<head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>BMI-Rechner</title>
+</head>
+<body>
+
+<h1>BMI-Rechner</h1>
+
+<form name="bmiform">
+    <label><input type="text" name="groesse" placeholder="Größe in cm" id="heightInput"/></label>
+    <label><input type="text" name="gewicht" placeholder="Gewicht in KG" id="weightInput"/></label>
+    <label><input type="button" name="submit" value="Berechnen" onclick="calculate();" id="calculateButton"></label>
+</form>
+
+<span id="bmiSpan">Dein BMI beträgt: </span>
+
+<!-- BMI Rechner by jonasriedel.com -->
+
+<script src="script.js"></script>
+</body>
+</html>

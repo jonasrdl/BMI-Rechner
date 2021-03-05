@@ -1,0 +1,56 @@
+* {
+    background-color: #121212;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#heightInput, #weightInput {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    position: absolute;
+    color: #f6f6f6;
+}
+
+#heightInput, #weightInput, #calculateButton:focus {
+    outline: none;
+}
+
+#heightInput {
+    top: 50%;
+    left: 48%;
+}
+
+#weightInput {
+    top: 50%;
+    left: 39%;
+}
+
+#bmiSpan {
+    color: #f6f6f6;
+    position: absolute;
+    top: 55%;
+    left: 45%;
+}
+
+#calculateButton {
+    color: #f6f6f6;
+    position: absolute;
+    top: 50%;
+    left: 57%;
+    border: 1px solid #f6f6f6;
+    transition: all 0.3s ease-in-out;
+}
+
+#calculateButton:hover {
+    background-color: #f6f6f6;
+    cursor: pointer;
+    color: #121212;
+    transition: all 0.3s ease-in-out;
+}
+
+h1 {
+    color: #f6f6f6;
+    position: absolute;
+    top: 40%;
+    left: 43.5%;
+}
