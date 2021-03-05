@@ -1,5 +1,4 @@
 * {
-    background-color: #121212;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -9,6 +8,11 @@
     border-right: none;
     position: absolute;
     color: #f6f6f6;
+    background-color: #121212;
+}
+
+body {
+    background-color: #121212;
 }
 
 #heightInput, #weightInput, #calculateButton:focus {
@@ -34,6 +38,7 @@
 
 #calculateButton {
     color: #f6f6f6;
+    background-color: #121212;
     position: absolute;
     top: 50%;
     left: 57%;

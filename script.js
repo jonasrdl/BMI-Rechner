@@ -7,12 +7,12 @@ function calculate() {
     const weightInput = document.getElementById('weightInput');
 
     if (weight < 10 || weight > 200) {
-        alert('Falsches Gewicht. Bitte Daten erneut eingeben');
+        swal('Falsches Gewicht. Bitte Daten erneut eingeben');
 
         return null;
     }
     if (height < 50 || height > 250) {
-        alert('Falsche Größe. Bitte Daten erneut eingeben');
+        swal('Falsche Größe. Bitte Daten erneut eingeben');
 
         return null;
     }
