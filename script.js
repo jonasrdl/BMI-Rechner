@@ -6,17 +6,6 @@ function calculate() {
     const heightInput = document.getElementById('heightInput');
     const weightInput = document.getElementById('weightInput');
 
-    if (weight < 10 || weight > 200) {
-        swal('Falsches Gewicht. Bitte Daten erneut eingeben');
-
-        return null;
-    }
-    if (height < 50 || height > 250) {
-        swal('Falsche Größe. Bitte Daten erneut eingeben');
-
-        return null;
-    }
-
     bmi = Math.round(weight / (Math.pow((height / 100), 2)));
     bmiSpan.innerText = 'Dein BMI beträgt: ' + bmi;
 
