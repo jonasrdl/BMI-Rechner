@@ -2,4 +2,4 @@
 
 Just enter your height and weight, you will get your BMI (Body-Mass-Index).
 
-### Live Demo: bmirechner.jonasriedel.com
+### Live Demo: https://bmirechner.jonasriedel.com
